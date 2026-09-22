@@ -1,2 +1,9 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* Keep the desktop presentation comfortably large without affecting mobile layouts. */
+@media (min-width: 1280px) {
+  #root {
+    zoom: 1.15;
+  }
+}
